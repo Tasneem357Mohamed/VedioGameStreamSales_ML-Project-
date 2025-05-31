@@ -5,10 +5,10 @@ This project is a comprehensive analysis and modeling of game sales data using v
 
 ## Table of Contents
 - [Data Sources](#data-sources)
-- [Models Used](#models-used)
+- [MS1 Description](#ms1-description)
+- [MS2 Description](#ms2-description)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Data Sources
 The data used in this project is sourced from:
@@ -17,27 +17,64 @@ The data used in this project is sourced from:
 - `info_base_games.csv`: Contains information about base games.
 - `gamalytic_cls_sales.csv`: Contains classification sales data.
 
-## Models Used
-The following models are implemented in this project:
+## MS1 Description
+In this milestone, we focused on applying multiple regression models to four distinct datasets provided as input files. The goal was to analyze each dataset, perform appropriate preprocessing, and fit various regression algorithms to model the underlying relationships in the data.
+### Tasks Performed:
+- Loaded and explored the four input data files.
+- Conducted data cleaning and preprocessing (handling missing values , handling outliers , encoding, normalization , Feature selection , Feature Extraction).
+- Split each dataset into training and testing sets.
+- Applied and evaluated different regression models.
+  
+### Regression Models Used:
+- Lasso regression --> For Feature Selection
 - Linear Regression
-- Ridge Regression
-- Lasso Regression
-- ElasticNet
 - Logistic Regression
-- Random Forest Regressor
-- Gradient Boosting Regressor
-- XGBoost
-- LightGBM
-- Decision Tree Regressor
+- Gradient Boosting Regression
+- Decision Tree Regression
 - Bayesian Ridge Regression
-- Support Vector Regressor
-- AdaBoost Regressor
+- Random Forest
+- LightGBM
+- XGBoost
+
+## MS2 Description
+In this milestone, we focused on applying a range of classification models to four different datasets. The objective was to preprocess the data, train various classifiers, and evaluate their performance to determine the most effective models for each task.
+### Tasks Performed:
+- Loaded and explored the four input data files.
+- Conducted data cleaning and preprocessing (handling missing values , handling outliers , encoding, normalization , Feature selection , Feature Extraction).
+- Split each dataset into training and testing sets.
+- Applied multiple classification algorithms.
+  
+### Classification Models Used:
+- Lasso regression --> For Feature Selection
+- Linear Regression
+- Logistic Regression
+- Gradient Boosting Regression
+- Decision Tree Regression
+- Bayesian Ridge Regression
+- Random Forest
+- LightGBM
+- XGBoost
+- Decision Tree Classifier
+- Linear SVM
+- KNN
+- Naive Bayes
+  
 
 ## Results
 The performance metrics for the models are evaluated using:
 - RMSE (Root Mean Squared Error)
 - R² Score
-- MAE (Mean Absolute Error)
-- MAPE (Mean Absolute Percentage Error)
+- Accuracy
+- MAE
+- MAPE
+- Tolerance-Based Accuracy
 
-Example output for the Linear Regression model:
+## Contributing
+|                   Name                    |     ID     |
+| :---------------------------------------: | :--------: |
+|      Zaid Hany Mohamed Salah El Deen      | 2022170175 |
+| Tasneem Mohamed Ahmed Mohamed | 2022170105 |
+|     Basmala Tarek Kamal Khalil ElBagoury     | 2022170094 |
+|          Eman Saleh Hemida Mohamed          | 2022170085 |
+|           Salma Hamdy Ahmed       | 2022170188 |
+|       Marwan Hossam Ahmad Abdullah        | 2021170502 |
